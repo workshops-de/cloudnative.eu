@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 389 389" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="XMLID_15_" transform="matrix(1.04,0,0,1.04,-13.728,-13.104)">
+        <g id="XMLID_78_">
+            <path id="XMLID_82_" d="M66.7,261.9L13.2,261.9L13.2,386.6L137.9,386.6L137.9,333.2L66.7,333.2L66.7,261.9Z" style="fill:rgb(68,108,169);fill-rule:nonzero;"/>
+            <path id="XMLID_81_" d="M333.8,262.3L333.8,333.2L262.9,333.2L262.6,332.8L262.6,386.6L387.2,386.6L387.2,261.9L333.4,261.9L333.8,262.3Z" style="fill:rgb(68,108,169);fill-rule:nonzero;"/>
+            <path id="XMLID_80_" d="M13.2,137.3L67.1,137.3L66.7,136.9L66.7,66L137.5,66L137.9,66.4L137.9,12.6L13.2,12.6L13.2,137.3Z" style="fill:rgb(68,108,169);fill-rule:nonzero;"/>
+            <path id="XMLID_79_" d="M262.6,12.6L262.6,66L333.8,66L333.8,137.3L387.2,137.3L387.2,12.6L262.6,12.6Z" style="fill:rgb(68,108,169);fill-rule:nonzero;"/>
+        </g>
+        <g id="XMLID_73_">
+            <path id="XMLID_77_" d="M256,137.3L184.7,66L262.6,66L262.6,12.6L137.9,12.6L137.9,66.4L208.7,137.3L256,137.3Z" style="fill:rgb(118,196,213);fill-rule:nonzero;"/>
+            <path id="XMLID_76_" d="M191.7,261.9L144.5,261.9L203.5,321L215.7,333.2L137.9,333.2L137.9,386.6L262.6,386.6L262.6,332.8L191.7,261.9Z" style="fill:rgb(118,196,213);fill-rule:nonzero;"/>
+            <path id="XMLID_75_" d="M333.8,137.3L333.8,215.1L262.6,143.9L262.6,191.1L333.4,261.9L387.2,261.9L387.2,137.3L333.8,137.3Z" style="fill:rgb(118,196,213);fill-rule:nonzero;"/>
+            <path id="XMLID_74_" d="M137.9,208.1L67.1,137.3L13.2,137.3L13.2,261.9L66.7,261.9L66.7,184.1L137.9,255.3L137.9,208.1Z" style="fill:rgb(118,196,213);fill-rule:nonzero;"/>
+        </g>
+    </g>
+</svg>

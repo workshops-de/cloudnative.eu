@@ -3,15 +3,12 @@ description: ""
 url: "https://cloudnative.eu" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
-ga_property: "UA-39010393-1"
+ga_property: "UA-97181121-8"
 permalink: /artikel/:slug/
-repository_url: "https://github.com/symetics/cloudnative.eu"
+repository_url: "https://github.com/workshops-de/cloudnative.eu"
 ws_course_id: 4
 
 collections:
-  books:
-    output: true
-    permalink: /buecher/:path/
   pages:
     output: true
     permalink: /:name/
@@ -24,10 +21,6 @@ defaults:
       header_image: "header.jpg"
       toc: true
       language: "de"
-  - scope:
-      path: "_books" # an empty string here means all files in the project
-    values:
-      layout: "chapter"
   - scope:
       path: "_pages" # an empty string here means all files in the project
     values:
