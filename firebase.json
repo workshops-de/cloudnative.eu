@@ -24,11 +24,6 @@
         "type": 301
       },
       {
-        "source": "/schulungen/angular-advanced/",
-        "destination": "https://cloudnative.eu/schulungen/angular-enterprise-applications/",
-        "type": 301
-      },
-      {
         "source": "/workshops/",
         "destination": "https://cloudnative.eu/schulungen/",
         "type": 301
@@ -69,33 +64,8 @@
         "type": 301
       },
       {
-        "source": "/buch/:id*",
-        "destination": "https://cloudnative.eu/buecher/angularjs-buch/:id*",
-        "type": 301
-      },
-      {
         "source": "/blog/:id*",
         "destination": "https://cloudnative.eu/artikel/:id",
-        "type": 301
-      },
-      {
-        "source": "/artikel/angular2-bootstrap-scss-angular-cli*",
-        "destination": "https://cloudnative.eu/artikel/angular-bootstrap-scss-angular-cli/",
-        "type": 301
-      },
-      {
-        "source": "/artikel/angular2-tutorial-deutsch*",
-        "destination": "https://cloudnative.eu/artikel/angular-tutorial-deutsch/",
-        "type": 301
-      },
-      {
-        "source": "/artikel/ngupgrade-migration-angularjs-angular2*",
-        "destination": "https://cloudnative.eu/artikel/ngupgrade-migration-angularjs-angular/",
-        "type": 301
-      },
-      {
-        "source": "/artikel/angular2-routing-tutorial-deutsch*",
-        "destination": "https://cloudnative.eu/artikel/angular-routing-tutorial-deutsch/",
         "type": 301
       }
     ],
