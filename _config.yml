@@ -1,11 +1,11 @@
-title: Angular.DE
+title: CloudNative.EU
 description: ""
-url: "https://angular.de" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://cloudnative.eu" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 ga_property: "UA-39010393-1"
 permalink: /artikel/:slug/
-repository_url: "https://github.com/symetics/angular.de"
+repository_url: "https://github.com/symetics/cloudnative.eu"
 ws_course_id: 4
 
 collections:

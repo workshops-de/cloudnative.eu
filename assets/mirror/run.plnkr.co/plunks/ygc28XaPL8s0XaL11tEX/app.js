@@ -4,7 +4,7 @@ angular.module('ngModelOptionsDemo').controller('baseController', function ($sco
     $scope.user = {
       username: "tilmanpotthof",
       name: "",
-      url: "http://angular.de/entwickler/tilmanpotthof"
+      url: "http://cloudnative.eu/entwickler/tilmanpotthof"
     };
 
     $scope.userInputOptions = {

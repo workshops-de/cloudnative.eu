@@ -1,4 +1,4 @@
-# angular.de
+# cloudnative.eu
 
 Requires Ruby 2.5+
 
