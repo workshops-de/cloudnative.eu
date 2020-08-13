@@ -11,7 +11,6 @@ Jekyll::Hooks.register :site, :after_init do |site|
     'cloud-native-muc',
     'Kubernetes-Nurnberg',
     'Kubernetes-and-Cloud-Native-Group-Dresden',
-    'Cloudical-Meetups',
     'Cloud-Computing-Rhein-Ruhr',
     'Kassel-Cloud-Native-Computing',
     'Cloud-Native-Computing-Switzerland',
