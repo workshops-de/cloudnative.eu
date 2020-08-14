@@ -8,4 +8,4 @@ header_source: https://unsplash.com/photos/9JrBiphz0e0
 tutorial_page_order: '1'
 ---
 
-## Wir arbeiten dran! Kommt die nächste Woche =)
+## Wir arbeiten dran! =)
