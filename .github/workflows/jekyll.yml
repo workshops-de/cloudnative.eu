@@ -20,26 +20,38 @@ jobs:
     steps:
     - name: Clone repository
       uses: actions/checkout@v2
+      with:
+        submodules: recursive
 
-    - name: Cache
-      uses: actions/cache@v2.1.2
+    - name: Cache Bundler 💾
+      uses: actions/cache@v2
       with:
         path: ~/.firebase, ~/.jekyll-cache, ~/vendor/bundle
         key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
         restore-keys: |
           ${{ runner.os }}-gems-
 
-    - name: Build the site in the jekyll/builder container
-      run: |
-        docker run \
-        --env JEKYLL_ENV=production \
-        --env YOUTUBE_API_KEY=${{ secrets.YOUTUBE_API_KEY }} \
-        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "chmod a+w /srv/jekyll/Gemfile.lock && chmod -R 777 /srv/jekyll && jekyll build"
+    - name: Use Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        bundler-cache: true
 
-    - name: Deploy
+    - name: Build 🏗
+      run: bundle exec jekyll build --trace
+
+    - name: Deploy to Firebase
       if: github.ref == 'refs/heads/master'
-      uses: doonstore/firebase-deploy@v1
-      env:
-        FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
-        FIREBASE_PROJECT: 'default'
+      uses: FirebaseExtended/action-hosting-deploy@v0
+      with:
+        repoToken: '${{ secrets.GITHUB_TOKEN }}'
+        firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_CLOUDNATIVE_EU }}'
+        channelId: live
+        projectId: cloudnative-eu
+
+    - name: Deploy Preview to Firebase
+      if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository
+      uses: FirebaseExtended/action-hosting-deploy@v0
+      with:
+        repoToken: '${{ secrets.GITHUB_TOKEN }}'
+        firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_CLOUDNATIVE_EU }}'
+        projectId: cloudnative-eu
